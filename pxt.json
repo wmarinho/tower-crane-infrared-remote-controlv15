@@ -1,0 +1,31 @@
+{
+    "name": "Tower-crane-Infrared-remote-controlV1.5",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "YB_IR": "github:lzty634158/yb_ir#8380cde5ae5cbbe1b1ca6beddeba325c33c1ea0d",
+        "mbit": "github:lzty634158/yahboom_mbit_en#ec0be625edd52ff7e5e0f4bbc92d43cb3c3205d3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v3.0.61",
+        "tag": "v3.0.61",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/9ff91acb8524c6a52fee90cf7194a4643c424363",
+        "target": "6.0.19",
+        "pxt": "6.0.35",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
